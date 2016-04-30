@@ -76,13 +76,3 @@ class GeodeRestController {
 		return sessionId;
 	}
 }
-/*
-
-@Component
-class TomcatGeodeCustomizer implements TomcatContextCustomizer {
-
-	@Override public void customize(Context context) {
-		context.getManager().getSessionIdGenerator().setSessionIdLength(16);
-	}
-}
-*/
